@@ -1,0 +1,12 @@
+global:
+  domain: argocd.fbi.com
+
+server:
+  extraArgs:
+    - --insecure
+    - --disable-auth
+dex:
+  enabled: false
+
+ingress:
+  hostname: argocd.fbi.com
