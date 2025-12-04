@@ -1,0 +1,18 @@
+{
+  "id": "kctl",
+  "version": "1.0.0",
+  "name": "Kubectl cli",
+  "description": "Install Kubectl CLI for Kubernetes",
+  "options": {
+    "kubectl ": {
+      "type": "string",
+      "default": "latest",
+      "description": "Kubectl version"
+    },
+    "helm": {
+      "type": "string",
+      "default": "latest",
+      "description": "Install Helm CLI"
+    }
+  }
+}
